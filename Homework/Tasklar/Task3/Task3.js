@@ -301,3 +301,16 @@
 //     return acc
 // })
 // console.log('sum7=',indsum7);
+
+//15
+// function something(a) {
+//   let test = [];
+//   for (let i of a) {
+//       let Count = (i.name.match(/t/gi) || []).length;
+//       if (Count == 2) {
+//           test.push(i.key);
+//       }
+//   }
+//   return test;
+// }
+// console.log(something(arr2));
